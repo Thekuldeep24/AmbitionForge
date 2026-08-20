@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Ambassador Hub | AmbitionForge</title>
+    <meta name="description"
+        content="Learn about student ambassador programs like Google Student Ambassador, Microsoft Learn Student Ambassador, and how to apply. Get guidance on eligibility, application process, and preparation.">
+    <meta name="keywords"
+        content="student ambassador, Google Student Ambassador, Microsoft Learn Student Ambassador, MLSA, leadership programs, student leadership, AmbitionForge">
+    <meta name="author" content="AmbitionForge Community">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#4285F4">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ambassador Hub | AmbitionForge">
+    <meta property="og:description"
+        content="Learn about student ambassador programs and how to become a leader in your community.">
+    <meta property="og:image" content="assets/logo.svg">
+    <meta property="og:url" content="https://ambitionforge.com/ambassador.html">
+    <meta property="og:site_name" content="AmbitionForge">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ambassador Hub | AmbitionForge">
+    <meta name="twitter:description" content="Learn about student ambassador programs and how to become a leader.">
+    <meta name="twitter:image" content="assets/logo.svg">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header - Without Opportunities Link -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.svg" alt="AmbitionForge Logo">
+                <span class="logo-text">
+                    <span class="ambition">Ambition</span><span class="forge">Forge</span>
+                </span>
+            </a>
+            <nav class="nav-desktop">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="ambassador.html" class="nav-link active">Ambassador Hub</a>
+                <a href="community.html" class="nav-link">Community</a>
+                <a href="events.html" class="nav-link">Events</a>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <a href="community.html" class="btn btn-primary btn-sm">Join Community</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="ambassador.html">Ambassador Hub</a>
+        <a href="community.html">Community</a>
+        <a href="events.html">Events</a>
+        <button class="mobile-theme-toggle" id="mobileThemeToggle">
+            <span id="mobileThemeText">Dark Mode</span>
+            <i class="fas fa-moon" id="mobileThemeIcon"></i>
+        </button>
+        <a href="community.html" class="mobile-cta">Join Community</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Hero -->
+        <div class="page-hero">
+            <div class="container">
+                <span class="section-tag yellow">Ambassador Hub</span>
+                <h1>Become a Student <span class="accent">Ambassador</span></h1>
+                <p class="section-subtitle">Represent leading tech communities, develop leadership skills, and make an
+                    impact on your campus.</p>
+            </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="container text-center mb-16">
+            <p style="font-size: 0.8rem; color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+                AmbitionForge is an independent community and is not officially affiliated with Google, Microsoft, or
+                any other organization.
+            </p>
+        </div>
+
+        <!-- What is a Student Ambassador -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What is a <span class="accent">Student Ambassador?</span></h2>
+                </div>
+                <div class="card-grid"
+                    style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 900px; margin: 0 auto;">
+                    <div class="card">
+                        <div class="card-icon blue"><i class="fas fa-users"></i></div>
+                        <h3>Community Builder</h3>
+                        <p>Organize events, workshops, and connect students with valuable resources on campus.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon green"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <h3>Tech Advocate</h3>
+                        <p>Promote technology learning and help peers discover new tools and platforms.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon red"><i class="fas fa-crown"></i></div>
+                        <h3>Leader</h3>
+                        <p>Develop leadership skills while representing a global tech community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Become an Ambassador -->
+        <section class="section section-soft">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag green">Benefits</span>
+                    <h2 class="section-title">Why <span class="accent">Become One?</span></h2>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon blue"><i class="fas fa-network-wired"></i></div>
+                        <h3>Network</h3>
+                        <p>Connect with industry professionals and fellow ambassadors worldwide.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon green"><i class="fas fa-certificate"></i></div>
+                        <h3>Recognition</h3>
+                        <p>Earn official certificates and badges from leading tech organizations.</p>
+                    </div>
+                    <!-- <div class="card">
+                        <div class="card-icon red"><i class="fas fa-gift"></i></div>
+                        <h3>Exclusive Access</h3>
+                        <p>Get early access to resources, events, and opportunities.</p>
+                    </div>-->
+                    <div class="card">
+                        <div class="card-icon yellow"><i class="fas fa-chart-line"></i></div>
+                        <h3>Career Growth</h3>
+                        <p>Strengthen your resume and stand out in job applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ambassador Programs -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag blue">Programs</span>
+                    <h2 class="section-title">Popular <span class="accent">Programs</span></h2>
+                </div>
+                <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                    <!-- Google Student Ambassador -->
+                    <div class="card">
+                        <div class="card-icon blue"><i class="fab fa-google"></i></div>
+                        <h3>Google Student Ambassador</h3>
+                        <p>Represent Google Developer communities on campus. Organize events, workshops, and connect
+                            students with Google resources.</p>
+                        <button class="btn btn-outline btn-sm mt-16" onclick="showAmbassadorDetails('google')">Learn
+                            More</button>
+                    </div>
+                    <!-- Microsoft Learn Student Ambassador -->
+                    <div class="card">
+                        <div class="card-icon green"><i class="fab fa-microsoft"></i></div>
+                        <h3>Microsoft Learn Student Ambassador</h3>
+                        <p>Join Microsoft's student program to access exclusive resources, build technical skills, and
+                            grow as a leader.</p>
+                        <button class="btn btn-outline btn-sm mt-16" onclick="showAmbassadorDetails('microsoft')">Learn
+                            More</button>
+                    </div>
+                    <!-- Other Programs -->
+                    <div class="card">
+                        <div class="card-icon red"><i class="fas fa-globe"></i></div>
+                        <h3>Other Student Programs</h3>
+                        <p>Explore additional ambassador roles from leading tech organizations and developer
+                            communities.</p>
+                        <button class="btn btn-outline btn-sm mt-16"
+                            onclick="showAmbassadorDetails('other')">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Roadmap -->
+        <section class="section section-soft">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag yellow">Roadmap</span>
+                    <h2 class="section-title">Application <span class="accent">Journey</span></h2>
+                </div>
+                <div class="roadmap">
+                    <div class="roadmap-step">
+                        <div class="step-num">1</div>
+                        <h4>Discover</h4>
+                        <p>Explore programs</p>
+                    </div>
+                    <div class="roadmap-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="roadmap-step">
+                        <div class="step-num">2</div>
+                        <h4>Prepare</h4>
+                        <p>Build your profile</p>
+                    </div>
+                    <div class="roadmap-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="roadmap-step">
+                        <div class="step-num">3</div>
+                        <h4>Apply</h4>
+                        <p>Submit application</p>
+                    </div>
+                    <div class="roadmap-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="roadmap-step">
+                        <div class="step-num">4</div>
+                        <h4>Selection</h4>
+                        <p>Complete process</p>
+                    </div>
+                    <div class="roadmap-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="roadmap-step">
+                        <div class="step-num">5</div>
+                        <h4>Contribute</h4>
+                        <p>Make an impact</p>
+                    </div>
+                    <div class="roadmap-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="roadmap-step">
+                        <div class="step-num">6</div>
+                        <h4>Grow</h4>
+                        <p>Lead & inspire</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preparation Tips -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag red">Preparation</span>
+                    <h2 class="section-title">How to <span class="accent">Prepare</span></h2>
+                </div>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon blue"><i class="fas fa-file-alt"></i></div>
+                        <h3>Resume</h3>
+                        <p>Highlight projects, technical skills, and community involvement. Keep it concise and
+                            impact-focused.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon green"><i class="fab fa-linkedin"></i></div>
+                        <h3>LinkedIn</h3>
+                        <p>Optimize your profile with a clear headline, detailed experiences, and relevant keywords.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon red"><i class="fas fa-users"></i></div>
+                        <h3>Community</h3>
+                        <p>Show genuine involvement — attend events, contribute to forums, and help others in your
+                            network.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon yellow"><i class="fas fa-pen-fancy"></i></div>
+                        <h3>Content</h3>
+                        <p>Create technical content, write blog posts, or share learning resources to demonstrate
+                            initiative.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon blue"><i class="fas fa-calendar-alt"></i></div>
+                        <h3>Events</h3>
+                        <p>Volunteer at hackathons, workshops, or campus tech events to build organizational experience.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon green"><i class="fas fa-crown"></i></div>
+                        <h3>Leadership</h3>
+                        <p>Take on leadership roles in student groups, clubs, or community projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Join CTA -->
+        <section class="section">
+            <div class="container">
+                <div class="premium-join-card">
+                    <div class="premium-join-copy">
+                        <span class="section-kicker" style="color: rgba(255,255,255,0.8);">START YOUR JOURNEY</span>
+                        <h2>Ready to become a leader?</h2>
+                        <p>Join our community to get guidance and support for your ambassador journey.</p>
+                    </div>
+                    <div class="premium-join-actions" style="position: relative; z-index: 1;">
+                        <a href="community.html" class="premium-join-btn">
+                            Join Community
+                            <span class="arrow">→</span>
+                        </a>
+                        <div class="premium-join-note">Get mentorship and guidance.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-grid">
+                <!-- Brand Section -->
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">
+                        <img src="assets/logo.svg" alt="AmbitionForge Logo">
+                        <span class="logo-text">
+                            <span class="ambition">Ambition</span><span class="forge">Forge</span>
+                        </span>
+                    </a>
+                    <p class="footer-description">Forge Your Ambition. Shape Your Future. A student-led community
+                        helping students turn ambition into action.</p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link linkedin" aria-label="LinkedIn" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="footer-social-link instagram" aria-label="Instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer-social-link youtube" aria-label="YouTube" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="footer-social-link github" aria-label="GitHub" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Explore Links -->
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="ambassador.html"><i class="fas fa-chevron-right"></i> Ambassador Hub</a></li>
+                        <li><a href="community.html"><i class="fas fa-chevron-right"></i> Community</a></li>
+                        <li><a href="events.html"><i class="fas fa-chevron-right"></i> Events</a></li>
+                    </ul>
+                </div>
+
+                <!-- Community Links -->
+                <div class="footer-links">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="community.html"><i class="fas fa-chevron-right"></i> Join Community</a></li>
+                        <li><a href="events.html"><i class="fas fa-chevron-right"></i> Events & Workshops</a></li>
+                        <li><a href="community.html"><i class="fas fa-chevron-right"></i> Member Highlights</a></li>
+                        <li><a href="community.html"><i class="fas fa-chevron-right"></i> Learning Resources</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>kuldeepyaduvanshi281@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Student Community, India</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <span>ambitionforge.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="footer-disclaimer">
+            AmbitionForge is an independent student-led community and is not officially affiliated with Google,
+            Microsoft, or any other organization unless explicitly stated.
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <span class="copyright">&copy; 2026 <span class="footer-brand-name">AmbitionForge</span>. All rights
+                    reserved.</span>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="community.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+    <!-- Modal Container -->
+    <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+        <div class="modal" id="modalContent">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Pehle events-data.js load karo -->
+    <script src="events-data.js"></script>
+    <!-- Phir script.js load karo -->
+    <script src="script.js"></script>
+    <script>
+        // Ambassador details modal function
+        window.showAmbassadorDetails = function (program) {
+            const details = {
+                google: {
+                    title: 'Google Student Ambassador',
+                    content: `
+                        <p><strong>About:</strong> Represent Google Developer communities on your campus. Organize events, facilitate workshops, and connect students with Google technologies.</p>
+                        <p><strong>Eligibility:</strong> Currently enrolled university student, passionate about technology and community building.</p>
+                        <p><strong>How to Apply:</strong> Check the Google Developer Student Clubs website for application cycles. Typically requires an online application and short essays.</p>
+                        <p><strong>Selection Process:</strong> Applications are reviewed based on leadership potential, technical interest, and community involvement.</p>
+                        <p><strong>Preparation Tips:</strong> Build your online presence, participate in community events, and showcase your technical projects.</p>
+                    `
+                },
+                microsoft: {
+                    title: 'Microsoft Learn Student Ambassador',
+                    content: `
+                        <p><strong>About:</strong> Join Microsoft's student program to access exclusive resources, build technical skills, and grow as a leader.</p>
+                        <p><strong>Eligibility:</strong> Currently enrolled student (18+), passionate about technology and helping others learn.</p>
+                        <p><strong>How to Apply:</strong> Apply through the Microsoft Learn Student Ambassador portal with a written application and sometimes a video interview.</p>
+                        <p><strong>Selection Process:</strong> Based on passion for technology, communication skills, and willingness to contribute.</p>
+                        <p><strong>Preparation Tips:</strong> Complete Microsoft Learn modules, create technical content, and engage with the community.</p>
+                    `
+                },
+                other: {
+                    title: 'Other Student Ambassador Programs',
+                    content: `
+                        <p><strong>Explore Additional Programs:</strong> Many organizations offer student ambassador roles including:</p>
+                        <p>• Developer Student Clubs (DSC)</p>
+                        <p>• GitHub Campus Expert</p>
+                        <p>• AWS Educate Student Ambassador</p>
+                        <p>• Intel Student Ambassador</p>
+                        <p>• Postman Student Leader</p>
+                        <p><strong>General Tips:</strong> Research programs that align with your interests, build your portfolio, and network with current ambassadors.</p>
+                    `
+                }
+            };
+            openModal(details[program].title, details[program].content);
+        };
+    </script>
+</body>
+
+</html>
