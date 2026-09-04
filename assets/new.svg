@@ -4,47 +4,79 @@
      height="100">
 
   <defs>
-    <linearGradient id="gradient"
-                    x1="10"
-                    y1="90"
-                    x2="90"
-                    y2="10"
+
+    <!-- Portfolio Gradient -->
+    <linearGradient id="portfolioGradient"
+                    x1="12"
+                    y1="88"
+                    x2="88"
+                    y2="12"
                     gradientUnits="userSpaceOnUse">
       <stop offset="0%"   stop-color="#3B82F6"/>
       <stop offset="45%"  stop-color="#8B5CF6"/>
-      <stop offset="72%"  stop-color="#06B6D4"/>
+      <stop offset="75%"  stop-color="#06B6D4"/>
       <stop offset="100%" stop-color="#10B981"/>
     </linearGradient>
+
+    <!-- Inner Gradient -->
+    <linearGradient id="innerGradient"
+                    x1="0"
+                    y1="1"
+                    x2="1"
+                    y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+
   </defs>
 
-  <!-- Outer Hexagon -->
+
+  <!-- OUTER HEXAGON -->
   <path
     d="M50 5
-       L90 27
-       L90 73
+       L89 27
+       L89 73
        L50 95
-       L10 73
-       L10 27
+       L11 73
+       L11 27
        Z"
-    fill="#080C17"
-    stroke="url(#gradient)"
-    stroke-width="7"
+    fill="none"
+    stroke="url(#portfolioGradient)"
+    stroke-width="6"
     stroke-linejoin="round"
   />
 
-  <!-- Letter K -->
+
+  <!-- INNER HEXAGON -->
   <path
-    d="M32 25
-       V75
-
-       M32 50
-       L67 25
-
-       M32 50
-       L69 75"
+    d="M50 15
+       L80 32
+       L80 68
+       L50 85
+       L20 68
+       L20 32
+       Z"
     fill="none"
-    stroke="url(#gradient)"
-    stroke-width="8"
+    stroke="url(#innerGradient)"
+    stroke-width="1.8"
+    opacity="0.38"
+    stroke-linejoin="round"
+  />
+
+
+  <!-- SMALLER CENTRAL K -->
+  <path
+    d="M39 32
+       V68
+
+       M39 50
+       L62 32
+
+       M39 50
+       L64 68"
+    fill="none"
+    stroke="url(#portfolioGradient)"
+    stroke-width="7"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
